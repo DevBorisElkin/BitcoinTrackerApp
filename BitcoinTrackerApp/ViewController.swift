@@ -7,6 +7,10 @@
 
 import UIKit
 
+//API Caller
+//UI to show different cryptos
+//MVVM
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
