@@ -1,0 +1,14 @@
+//
+//  APICaller.swift
+//  BitcoinTrackerApp
+//
+//  Created by macuser on 4/11/22.
+//
+
+import Foundation
+
+final class APICaller {
+    static let shared = APICaller()
+    
+    private init() {}
+}
