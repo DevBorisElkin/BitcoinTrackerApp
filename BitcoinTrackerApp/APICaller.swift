@@ -10,5 +10,9 @@ import Foundation
 final class APICaller {
     static let shared = APICaller()
     
+    private struct Constants {
+        static let apiKey = ""
+    }
+    
     private init() {}
 }
