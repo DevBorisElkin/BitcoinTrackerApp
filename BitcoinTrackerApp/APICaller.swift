@@ -15,4 +15,10 @@ final class APICaller {
     }
     
     private init() {}
+    
+    // MARK: - Public
+    
+    public func getAllCryptoData(completion) {
+        
+    }
 }
