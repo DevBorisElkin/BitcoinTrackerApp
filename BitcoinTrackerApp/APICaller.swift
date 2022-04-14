@@ -12,6 +12,7 @@ final class APICaller {
     
     private struct Constants {
         static let apiKey = "C786F1AC-4BD9-4E45-8B82-E874735DEE5B"
+        static let assetsEndpoint: URL? = URL(string: <#T##String#>)
     }
     
     private init() {}
