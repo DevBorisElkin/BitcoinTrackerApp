@@ -12,7 +12,8 @@ final class APICaller {
     
     private struct Constants {
         static let apiKey = "C786F1AC-4BD9-4E45-8B82-E874735DEE5B"
-        static let assetsEndpoint: URL? = URL(string: <#T##String#>)
+        static let assetsEndpoint = "https://rest.coinapi.io/v1/assets/"
+        
     }
     
     private init() {}
@@ -20,6 +21,10 @@ final class APICaller {
     // MARK: - Public
     
     public func getAllCryptoData(completion: @escaping (Result<[String], Error>) -> Void) {
+        guard let url = URL(string: Constants.assetsEndpoint + "?apikey" + Constants.apiKey) else {
+            return
+        }
         
+        let 
     }
 }
