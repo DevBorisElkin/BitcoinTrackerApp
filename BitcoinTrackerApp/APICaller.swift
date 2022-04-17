@@ -31,10 +31,10 @@ final class APICaller {
             }
             
             do {
-                
+                //Decode response
             }
             catch {
-                
+                completion(.failure(error))
             }
         }
         
