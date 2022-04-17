@@ -14,7 +14,8 @@ import UIKit
 class ViewController: UIViewController {
     
     private let tableView: UITableView = {
-        
+        let tableView = UITableView(frame: .zero, style: .grouped)
+        tableView.register(, forCellReuseIdentifier: <#T##String#>)
     }()
 
     override func viewDidLoad() {
