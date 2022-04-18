@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63E80B0E280DFD4E0002D251 /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E80B0D280DFD4E0002D251 /* CryptoTableViewCell.swift */; };
 		63FEFFD5280228FE005D1BA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FEFFD4280228FE005D1BA9 /* AppDelegate.swift */; };
 		63FEFFD7280228FE005D1BA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FEFFD6280228FE005D1BA9 /* SceneDelegate.swift */; };
 		63FEFFD9280228FE005D1BA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FEFFD8280228FE005D1BA9 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63E80B0D280DFD4E0002D251 /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
 		63FEFFD1280228FE005D1BA9 /* BitcoinTrackerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinTrackerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63FEFFD4280228FE005D1BA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63FEFFD6280228FE005D1BA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				63FEFFD6280228FE005D1BA9 /* SceneDelegate.swift */,
 				63FEFFD8280228FE005D1BA9 /* ViewController.swift */,
 				63FEFFEA2804CD25005D1BA9 /* APICaller.swift */,
+				63E80B0D280DFD4E0002D251 /* CryptoTableViewCell.swift */,
 				63FEFFDA280228FE005D1BA9 /* Main.storyboard */,
 				63FEFFDD28022900005D1BA9 /* Assets.xcassets */,
 				63FEFFDF28022900005D1BA9 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				63FEFFD9280228FE005D1BA9 /* ViewController.swift in Sources */,
 				63FEFFD5280228FE005D1BA9 /* AppDelegate.swift in Sources */,
 				63FEFFD7280228FE005D1BA9 /* SceneDelegate.swift in Sources */,
+				63E80B0E280DFD4E0002D251 /* CryptoTableViewCell.swift in Sources */,
 				63FEFFEB2804CD25005D1BA9 /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
