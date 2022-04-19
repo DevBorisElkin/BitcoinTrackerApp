@@ -11,16 +11,20 @@ import UIKit
 //UI to show different cryptos
 //MVVM
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     private let tableView: UITableView = {
         let tableView = UITableView(frame: .zero, style: .grouped)
-        tableView.register(, forCellReuseIdentifier: <#T##String#>)
+        tableView.register(CryptoTableViewCell.self, forCellReuseIdentifier: CryptoTableViewCell.identifier)
+        return tableView
     }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        title = "Crypto Tracker"
+        view.addSubview(tableView)
+        tableView.dataSource = self
+        tableView.delegate = self
     }
 
 
