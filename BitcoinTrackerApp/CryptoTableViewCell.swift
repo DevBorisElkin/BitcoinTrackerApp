@@ -10,8 +10,7 @@ import UIKit
 struct CryptoTableViewCellViewModel {
     let name: String
     let symbol:String
-    let price_usd: Float?
-    let id_icon: String?
+    let price: String
 }
 
 class CryptoTableViewCell: UITableViewCell {
