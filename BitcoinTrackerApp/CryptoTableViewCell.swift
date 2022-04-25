@@ -7,14 +7,18 @@
 
 import UIKit
 
+struct CryptoTableViewCellViewModel {
+    let name: String
+    let symbol:String
+    let price_usd: Float?
+    let id_icon: String?
+}
+
 class CryptoTableViewCell: UITableViewCell {
 
    static let identifier = "CryptoTableViewCell"
     
-    // Name
     
-    //Symbol
     
-    //Price
 
 }
