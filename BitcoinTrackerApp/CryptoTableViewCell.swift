@@ -17,6 +17,16 @@ class CryptoTableViewCell: UITableViewCell {
 
    static let identifier = "CryptoTableViewCell"
     
+    // Subviews
+    
+    // Init
+    
+    // Layout
+    
+    // Configure
+    
+    func configure()
+    
     
     
 
