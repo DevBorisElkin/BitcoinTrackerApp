@@ -21,11 +21,21 @@ class CryptoTableViewCell: UITableViewCell {
     
     // Init
     
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+    }
+    
+    required init?(coder: NSCoder) {
+        
+    }
+    
     // Layout
     
     // Configure
     
-    func configure()
+    func configure(with viewModel: CryptoTableViewCellViewModel) {
+        
+    }
     
     
     
